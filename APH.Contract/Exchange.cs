@@ -27,11 +27,6 @@ namespace APH.Contract
                 if (operation == "getContributed") return GetContributed((byte[])args[0]);
                 if (operation == "getAvailableToClaim") return GetAvailableToClaim((byte[])args[0]);
                 if (operation == "getAphConversionRate") return GetAssetToAphConversionRate((byte[]) args[0]);
-                /*
-                if (operation == "getMarketBuyFee") return GetMarketBuyFee((byte[])args[0], (byte[])args[1]);
-                if (operation == "getMarketSellFee") return GetMarketSellFee((byte[])args[0], (byte[])args[1]);
-                if (operation == "getMarketMinimumSize") return GetMarketMinimumSize((byte[])args[0], (byte[])args[1]);
-                */
 
                 byte[] unverifiedSender = EMPTY;
                 Transaction tx = (Transaction) ExecutionEngine.ScriptContainer;
