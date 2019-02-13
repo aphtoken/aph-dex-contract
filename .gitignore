@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/.idea
+/APH.Contract/.vs
+/APH.Contract/.idea
+/APH.Contract/bin/Debug
+/APH.Contract/obj/Debug
+/APH.Contract/bin/Release
+/APH.Contract/obj/Release
+/APH.Contract/packages
+APH.Contract/APH.Contract.Tests/bin/
+APH.Contract/APH.Contract.Tests/obj/
