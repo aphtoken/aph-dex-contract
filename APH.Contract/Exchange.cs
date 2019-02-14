@@ -234,7 +234,7 @@ RunOperation:
                 if (operation == "cancelOffer") return CancelOffer(args, sender);
                 if (operation == "send")
                 {
-                    if (VerifyOwner() == false || VerifyManager() == false) return false;
+                    if (VerifyOwner() == false && VerifyManager() == false) return false;
                     if (args.Length != 3) return false;
                     byte[] assetId = (byte[]) args[0];
                     if (assetId.Length != 20 && assetId.Length != 32) return false;
